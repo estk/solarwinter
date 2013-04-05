@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Solar Flight",
+    "index_articles": 3
+  },
+  "plugins": [
+    "/usr/local/share/npm/lib/node_modules/wintersmith-stylus",
+    "/usr/local/share/npm/lib/node_modules/wintersmith-coffee"
+  ]
+}
