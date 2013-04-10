@@ -1,6 +1,25 @@
+blue = #344d6b
+lblue = #a7c7d4
+yellow = #fcdc8a
+orange = #e89259
+red = #a63e1a
+
+font-size = 13px
+
+font = font-size "Hiragino Kaku Gothic Pro W3", 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+body
+  font font
+  line-height 120%
+  color: blue
+  
+a
+  color: orange
+
 header#menubar
   z-index 100
   width 100%
+  min-width 850px
   position fixed
   height 50px
   display block
@@ -12,28 +31,64 @@ header#menubar
 
 #logo
   position fixed
-  top 0
-  margin 0
-  padding 15px 25px 0px
-  width auto
+  top 0px
+  left 15px
+  padding 15px 25px 5px
   border-left none
 
 .inner
   margin 1em 1em
 
+nav
+  margin-left 250px
+  min-width 500
+  
+    
+nav a
+  font-size 13px
+  color #7B838A
+
+  &:hover
+    text-decoration none
+
+h2 a
+  font-color #000
+  color #000
+
+p
+  width 67%
+  margin 0 auto 0 0
+
 #content
   display block
+  max-width 1440px 
+  margin 0 auto
 
 #container
   width 80%
-  margin 0 10% 0
+  margin 0 auto
+  //min-width 850px
 
 article.post
-  //border-bottom 1px solid #ddd
-  //box-shadow 0 0 4px #eee
   padding 1em
   margin 1em 0 1em
+
+.photoset
+  margin 10px 0
+  text-align justify
+  -ms-text-justify distribute-all-lines
+  text-justify distribute-all-lines
 
 .photoset img
   width 100px
 
+.photoset a
+
+.photoset a img
+  width 250px
+  display inline-block
+
+.photoset:after
+  content ''
+  width 100%
+  display inline-block

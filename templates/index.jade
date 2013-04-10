@@ -25,7 +25,7 @@ block content
             a(href=article.url)= article.title
           p
             mixin author(article.metadata.author)
-            p tags: #{article.metadata.tags}
+            //-p tags: #{article.metadata.tags}
         section.content!= article.intro
         if article.hasMore
           p.read-more

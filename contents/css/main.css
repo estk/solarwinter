@@ -4,11 +4,11 @@ h1, h2, h3, h4, h5, h6, p, blockquote, body {
   padding: 0;
 }
 
-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #252824;
+/*body {*/
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  /*font-size: 13px;*/
+  /*line-height: 18px;*/
+  /*color: #252824;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,9 +65,6 @@ p {
 }
 
 
-#container {
-  min-width: 300px;
-}
 
 body > header {
   border-bottom: 2px solid #0c3a7f;
@@ -107,19 +104,19 @@ body > footer .inner {
   font-style: italic;
 }
 
-body > header h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 39px;
-  line-height: 39px;
-  text-shadow: rgba(255,255,255,0.3) 0 0 10px;
-}
+/*body > header h1 {*/
+  /*font-family: 'Fredericka the Great', cursive;*/
+  /*font-size: 39px;*/
+  /*line-height: 39px;*/
+  /*text-shadow: rgba(255,255,255,0.3) 0 0 10px;*/
+/*}*/
 
 body > header a {
   color: #fff;
 }
 
 body > header h1 a:hover {
-  text-decoration: none;
+  text-decoration61922: none;
 }
 
 body > header p {

@@ -10,7 +10,7 @@ $(function() {
     play: {
       active: false,
       auto: true,
-      interval: 8000,
+      interval: 30000,
       swap: true
     },
     effect: {
@@ -22,5 +22,5 @@ $(function() {
 });
 
 jQuery(document).ready(function () {
-  jQuery('div.photoset a').colorbox({rel:'nofollow'});
+  jQuery('div.photoset a').colorbox({scalePhotos: true, transition:"elastic", maxWidth: "80%"});
 });
