@@ -1,6 +1,7 @@
 ---
 
 title: Rollout of Sunseeker Duo
+published: true
 date: June 17, 2012
 tags: duo
 
@@ -10,11 +11,25 @@ Today we assembled the major components of Sunseeker Duo out on the ramp for the
 
 <div class="photoset">
 
-![The Sunseeker Duo solar airplane with all major components assembled for the first time](Sunseeker_Duo_067_corr.jpg)
 
-!["Sunseeker Duo's solar cell covered wings fold like switchblades for storage"](079_small.jpg)
+<a href="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg" rel="gal-6-17-12" title="The Duo with all major components assembled for the first time">
+  <img src="/articles/6-17-12/thumbs/Sunseeker_Duo_067_corr.jpg" alt= "The Duo with all major components assembled for the first time" \>
+</a>
 
-![Clean frontal view of Sunseeker Duo](head_on.jpg)
+
+
+
+<a href="/articles/6-17-12/079_small.jpg" rel="gal-6-17-12" title="The Duo's solar cell covered wings fold like switchblades for storage">
+  <img src="/articles/6-17-12/thumbs/079_small.jpg" alt= "The Duo's solar cell covered wings fold like switchblades for storage" \>
+</a>
+
+
+
+<a href="/articles/6-17-12/head_on.jpg" rel="gal-6-17-12" title="Clean frontal view of Sunseeker Duo">
+  <img src="/articles/6-17-12/thumbs/head_on.jpg" alt= "Clean frontal view of Sunseeker Duo" \>
+</a>
+
 
 </div>
+
 

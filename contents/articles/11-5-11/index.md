@@ -1,6 +1,7 @@
 ---
 
 title: November 5, 2011
+published: true
 tags: home, duo
 template: article.jade
 
@@ -17,10 +18,6 @@ Partnered with him is John Lynch, whose shop is also at the Santa Paula Airport,
 
 
 <div class="photoset">
-
-<a href="/articles/11-5-11/nose_cone_with_well[1].jpg" rel="gal-11-5-11" title="Nose wheel CAD model">
-  <img src="/articles/11-5-11/nose_cone_with_well[1].jpg" alt= "Nose wheel CAD model" \>
-</a>
 
 <a href="/articles/11-5-11/nose_mockup.jpg" rel="gal-11-5-11" title="Nose wheel assembly mockup">
   <img src="/articles/11-5-11/nose_mockup.jpg" alt= "Nose wheel assembly mockup" \>

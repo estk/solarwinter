@@ -1,6 +1,7 @@
 ---
 
 title: August 6, 2012
+published: true
 tags: home, log
 template: article.jade
 
@@ -10,10 +11,19 @@ With south winds here in Slovenia, we have the chance for mountain waves.  I fle
 
 <div class="photoset">
 
-![Fresh air above the clouds](open.jpg)
+<a href="/articles/8-6-12/open.jpg" rel="gal-8-6-12" title="Fresh air above the clouds">
+  <img src="/articles/8-6-12/thumbs/open.jpg" alt= "Fresh air above the clouds" \>
+</a>
 
-![Impressive view over the nose](over_the_nose.jpg)
 
-![Pointing the nose toward serious terrain](Wave_sm.jpg)
+
+
+
+<a href="/articles/8-6-12/over_the_nose.jpg" rel="gal-8-6-12" title="Impressive view over the nose">
+  <img src="/articles/8-6-12/thumbs/over_the_nose.jpg" alt= "Impressive view over the nose" \>
+</a>
+
+
 
 </div>
+

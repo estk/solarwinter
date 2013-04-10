@@ -2,10 +2,41 @@ extends layout
 
 block content
   != page.html  
-  div#container
+  div#log.container
     include author
     //- underscore helps us filter and sort our articles
-    - var articles = _.chain(contents.articles._.directories).map(function(item) {
+    - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
+    -   // map articles to index pages of subdirectories of 'articles'
+    -   return item.index
+    - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+    -   // sort them by date
+    -   return -item.date
+    - }).filter(function(item) {
+    -   if (typeof item.metadata.published != "undefined") {
+    -     return (item.metadata.published && 1 + item.metadata.tags.search(/log/))
+    -   }else {
+    -     return false
+    -   }
+    - }).first(5).value() // and finally take the first 5
+    each article in logarticles
+      article.post
+        header
+          h2
+            a(href=article.url)= article.title
+          p
+            //-mixin author(article.metadata.author)
+            //-p tags: #{article.metadata.tags}
+        section.content!= article.intro
+        if article.hasMore
+          p.read-more
+            a(href=article.url) read more
+    //-a(href='archive.html')#archive Visit the archives!
+
+  div#duo.newsection
+    img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
+
+  div.container
+    - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
     -   // map articles to index pages of subdirectories of 'articles'
     -   return item.index
     - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
@@ -13,21 +44,36 @@ block content
     -   return -item.date
     - }).filter(function(item) {
     -   if (typeof item.metadata.tags != "undefined") {
-    -     return 1 + item.metadata.tags.search(/home/)
+    -     return (item.metadata.published && 1 + item.metadata.tags.search(/duo/))
     -   }else {
     -     return false
     -   }
     - }).first(5).value() // and finally take the first 5
-    each article in articles
+    each article in duoarticles
       article.post
         header
-          h2
-            a(href=article.url)= article.title
-          p
-            mixin author(article.metadata.author)
+          h2= article.title
+            //-a(href=article.url)= article.title
+          //-p
+            //-mixin author(article.metadata.author)
             //-p tags: #{article.metadata.tags}
         section.content!= article.intro
         if article.hasMore
           p.read-more
             a(href=article.url) read more
-    a(href='archive.html')#archive Visit the archives!
+    //-a(href='archive.html')#archive Visit the archives!
+
+  div#heritage
+    a(name="heritage")
+    p heritage
+
+  div#team
+    a(name="team")
+    p team
+
+  div#contact
+    a(name="contact")
+    p contact
+  
+
+

@@ -76,9 +76,6 @@ a:hover {
   text-decoration: underline;
 }
 
-:target {
-  padding-top: 100px;
-}
 
 /*#logo {*/
   /*position: fixed;*/
