@@ -3,11 +3,12 @@
 $(function() {
   $('#slides').slidesjs({
     width: 1440,
-    height: 900,
+    height: 960,
     navigation: {
       active: false
     },
     play: {
+      effect: "fade",
       active: false,
       auto: true,
       interval: 30000,

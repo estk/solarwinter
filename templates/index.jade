@@ -2,7 +2,13 @@ extends layout
 
 block content
   != page.html  
-  div#log.container
+  div#log.newsection
+    div.title
+      hr.left
+      span FLIGHT LOG
+      hr.right
+
+  div.container
     include author
     //- underscore helps us filter and sort our articles
     - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
@@ -18,7 +24,6 @@ block content
     -     return false
     -   }
     - }).first(5).value() // and finally take the first 5
-    h1 Flight Log
     each article in logarticles
       article.post
         header
@@ -33,7 +38,12 @@ block content
     //-a(href='archive.html')#archive Visit the archives!
 
   div#duo.newsection
-    img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
+    div.imgcontainer
+      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
+    div.title
+      hr.left
+      span  SUNSEEKER DUO
+      hr.right
 
   div.container
     - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
@@ -68,12 +78,36 @@ block content
     p heritage
 
   div#team.newsection
-    img(src="/images/teamheader.jpg")
-    //-a(name="team")
+    div.imgcontainer
+      img(src="/images/teamheader.jpg")
     div.title
       hr.left
       span TEAM
       hr.right
+
+  div.container.team
+    - var teamarticles = _.chain(contents.team._.directories).map(function(item) {
+    -   // map articles to index pages of subdirectories of 'articles'
+    -   return item.index
+    - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+    -   // sort them by date
+    -   return -item.date
+    - }).filter(function(item) {
+    -     return item.metadata.published
+    - }).value() 
+    each article in teamarticles
+      article.post
+        header
+          h2= article.title
+            //-a(href=article.url)= article.title
+          //-p
+            //-mixin author(article.metadata.author)
+            //-p tags: #{article.metadata.tags}
+        section.content.clearfix!= article.intro
+        if article.hasMore
+          p.read-more
+            a(href=article.url) read more
+    //-a(href='archive.html')#archive Visit the archives!
 
   div#contact
     a(name="contact")

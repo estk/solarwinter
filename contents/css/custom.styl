@@ -3,6 +3,8 @@ lblue = #a7c7d4
 yellow = #fcdc8a
 orange = #e89259
 red = #a63e1a
+grey = #666
+lgrey = #999
 
 font-size = 12px
 
@@ -62,8 +64,7 @@ nav
   
     
 nav a
-  color #7B838A
-
+  color grey
   &:hover
     text-decoration none
 
@@ -80,8 +81,17 @@ p
   max-width 1440px
   margin 0 auto
 
-.newsection img
-  width 100%
+
+.imgcontainer
+  position relative
+  padding-bottom 56.25%
+  overflow hidden
+  img
+    position absolute
+    top 0
+    left 0
+    max-width 100%
+    height auto
 
 :target
   padding-top 50px
@@ -101,37 +111,74 @@ article.post
   background: #ddd
   padding: 8px
   border-radius(5px)
-  height: 100px
   display inline-block
 
 .photoset a
   width 100px
+  height 100px
   text-decoration: none
 
 .photoset a img
   margin 5px
   width 100px
+  height 100px
+
+.team
+  article
+    margin 2em 0
+  p
+    float left
+  div
+    margin -2.5em 30px
+    float right
+    height 197px
+    width 148
 
 div.title
-  height 50px
+  vertical-align middle
+  height 2em
+  margin-bottom 2em
   padding 20px 0
   display block
   width 100%
   clear both
-  font-size 14pt
+  font-size 40pt
 
   hr.left
+    border 0
+    color red
+    background-color red
+    height 2px
     float left
     width 10%
     display inline-block
 
   span
+    color lgrey
     float left
-    margin 0 2em
+    margin .3em 1em
     display inline-block
 
   hr.right
-    width 75%
-    float right
-    display inline-block
+    border 0
+    color red
+    background-color red
+    height 2px
+    overflow hidden
+    display block
+
+#slides
+  //position relative
+  //height 0
+  //overflow hidden
+  display none
+  //padding-bottom 56.25%
+
+  a img
+    //position absolute
+    //top 0
+    //left 0
+    max-width 100%
+    height auto
+
 
