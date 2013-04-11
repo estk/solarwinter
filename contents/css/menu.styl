@@ -31,7 +31,7 @@ a
 header#menubar
   z-index 100
   width 100%
-  min-width 850px
+  //min-width 950px
   position fixed
   height 50px
   display block
@@ -42,7 +42,11 @@ header#menubar
   box-shadow 0 0 4px #eee;
 
 #logo
+  z-index 100
+  width 200px
+  height 20px
   position fixed
+  display block
   top 0px
   left 15px
   padding 15px 25px 5px
@@ -52,8 +56,9 @@ header#menubar
   margin 1em 1em
 
 nav
-  margin-left 250px
-  min-width 500
+  display block
+  margin-left 500px
+  min-width 500px
   
     
 nav a
@@ -108,9 +113,12 @@ article.post
   width 100px
 
 div.title
+  height 50px
+  padding 20px 0
   display block
   width 100%
   clear both
+  font-size 14pt
 
   hr.left
     float left
@@ -123,8 +131,7 @@ div.title
     display inline-block
 
   hr.right
-    width 80%
-    float left
+    width 75%
+    float right
     display inline-block
-    clear right
 
