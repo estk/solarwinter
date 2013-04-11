@@ -6,9 +6,10 @@ body {
 }
 
 #slides {
-  display: none
-  position: absolute
-
+  display: none;
+  height: 100%;
+  /*position: absolute*/
+  /*min-heignt: */
 }
 
 #slides .slidesjs-navigation {

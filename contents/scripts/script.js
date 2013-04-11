@@ -2,11 +2,11 @@
 
 $(function() {
   $('#slides').slidesjs({
+    width: 1440,
+    height: 900,
     navigation: {
       active: false
     },
-    //width: 940,
-    //height: 528,
     play: {
       active: false,
       auto: true,
@@ -35,4 +35,3 @@ $(function() {
 jQuery(document).ready(function () {
   jQuery('div.photoset a').colorbox({scalePhotos: true, transition:"elastic", maxWidth: "80%"});
 });
-

@@ -1,8 +1,8 @@
 ---
 
 title: Rollout of Sunseeker Duo
+date: 2012-6-17
 published: true
-date: June 17, 2012
 tags: duo
 
 ---

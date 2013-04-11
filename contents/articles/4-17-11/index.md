@@ -1,6 +1,7 @@
 ---
 
 title: April 17, 2011 - Sunseeker II Wins Berblinger Prize
+date: 2011-4-17
 published: true
 tags: home, log
 template: article.jade

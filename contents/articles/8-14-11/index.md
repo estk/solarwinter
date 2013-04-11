@@ -2,7 +2,7 @@
 
 title: Wing and Fuselage Center Section Construction
 published: true
-date: August 14, 2011
+date: 2011-8-14
 tags: duo, home
 
 ---

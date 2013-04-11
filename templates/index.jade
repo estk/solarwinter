@@ -18,11 +18,11 @@ block content
     -     return false
     -   }
     - }).first(5).value() // and finally take the first 5
+    h1 Flight Log
     each article in logarticles
       article.post
         header
-          h2
-            a(href=article.url)= article.title
+          h2= article.title
           p
             //-mixin author(article.metadata.author)
             //-p tags: #{article.metadata.tags}
@@ -67,9 +67,13 @@ block content
     a(name="heritage")
     p heritage
 
-  div#team
-    a(name="team")
-    p team
+  div#team.newsection
+    img(src="/images/noshoe.jpg")
+    //-a(name="team")
+    div.title
+      hr.left
+      span TEAM
+      hr.right
 
   div#contact
     a(name="contact")

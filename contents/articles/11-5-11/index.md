@@ -1,6 +1,7 @@
 ---
 
 title: November 5, 2011
+date: 2011-11-5
 published: true
 tags: home, duo
 template: article.jade

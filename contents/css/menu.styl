@@ -4,14 +4,26 @@ yellow = #fcdc8a
 orange = #e89259
 red = #a63e1a
 
-font-size = 13px
+font-size = 12px
 
 font = font-size "Hiragino Kaku Gothic Pro W3", 'Helvetica Neue', Helvetica, Arial, sans-serif
 
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+ box-shadow(args...)
+   -webkit-box-shadow args
+   -moz-box-shadow args
+   box-shadow args
+
 body
   font font
+  letter-spacing 1px
   line-height 120%
   color: blue
+  
   
 a
   color: orange
@@ -45,15 +57,14 @@ nav
   
     
 nav a
-  font-size 13px
   color #7B838A
 
   &:hover
     text-decoration none
 
-h2 a
+h2
   font-color #000
-  color #000
+  color orange
 
 p
   width 67%
@@ -61,7 +72,7 @@ p
 
 #content
   display block
-  max-width 1440px 
+  max-width 1440px
   margin 0 auto
 
 .newsection img
@@ -73,23 +84,47 @@ p
 .container
   width 80%
   margin 0 auto
-  //min-width 850px
+  min-width 850px
 
 article.post
   padding 1em
   margin 1em 0 1em
 
 .photoset
+  oveflow scroll
   margin 10px 0
+  background: #ddd
+  padding: 8px
+  border-radius(5px)
+  height: 100px
+  display inline-block
 
 .photoset a
-  width 250px
+  width 100px
   text-decoration: none
 
 .photoset a img
   margin 5px
-  width 200px
+  width 100px
 
-.photoset:after
-  content ''
+div.title
+  display block
   width 100%
+  clear both
+
+  hr.left
+    float left
+    width 10%
+    display inline-block
+
+  span
+    float left
+    margin 0 2em
+    display inline-block
+
+  hr.right
+    width 80%
+    float left
+    display inline-block
+    clear right
+

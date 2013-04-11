@@ -1,6 +1,7 @@
 ---
 
 title: August 6, 2012
+date: 2012-8-6
 published: true
 tags: home, log
 template: article.jade

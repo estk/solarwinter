@@ -1,9 +1,10 @@
 ---
 
 title: June 7, 2012
+date: 2012-6-7
 published: true
 tags: log, home
-template: article
+template: article.jade
 
 ---
 Yesterday We made  a SUNSEEKER flight for RTV Slovenia.  Irena went up in a hot air balloon, to take pictures, along with the TV crew. 

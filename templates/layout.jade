@@ -18,7 +18,19 @@ html(lang='en')
         block title
           = locals.name
       link(rel="icon", type="image/x-icon", href="/images/favicon.ico")
-      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+       script(type="text/javascript")
+         //<![CDATA[
+         with (document.documentElement.style) {
+
+           visibility = 'hidden';
+           overflow = 'hidden';
+
+           window.onload = function() {
+             visibility = '';
+             overflow = '';
+           };
+         }
+         //]]>
       link(rel='stylesheet', href='/css/style.css')
       link(rel='stylesheet', href='/css/font-awesome.min.css')
       link(rel='stylesheet', href='/css/slides.css')
@@ -32,7 +44,7 @@ html(lang='en')
     
     header#menubar
       #logo
-          a(href='/')
+          a(href='#')
               img(alt='Logo', src='/images/sflogo.png')
       nav.clearfix
         a(href='#log') FLIGHT LOG
@@ -55,6 +67,5 @@ html(lang='en')
     script(src='/vendor/modernizr.js')
     script(src='/vendor/jquery.slides.js')
     script(src='/vendor/jquery.colorbox-min.js')
-    script(src='/vendor/jquery.localScroll.min.js')
     script(src='/scripts/script.js')
 
