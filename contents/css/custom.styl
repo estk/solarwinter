@@ -1,14 +1,15 @@
-blue = #344d6b
-lblue = #a7c7d4
-yellow = #fcdc8a
-orange = #e89259
+blue = #001436
+lblue = #a2b5cb
+yellow = #ffdf85
+orange = #fc8f46
 red = #a63e1a
 grey = #666
 lgrey = #999
+black = #000
 
 font-size = 12px
 
-font = font-size "Hiragino Kaku Gothic Pro W3", 'Helvetica Neue', Helvetica, Arial, sans-serif
+font = font-size 'Garaamond', serif
 
 border-radius(n)
   -webkit-border-radius n
@@ -33,7 +34,6 @@ a
 header#menubar
   z-index 100
   width 100%
-  //min-width 950px
   position fixed
   height 50px
   display block
@@ -45,12 +45,9 @@ header#menubar
 
 #logo
   z-index 100
-  width 200px
-  height 20px
-  position fixed
-  display block
-  top 0px
-  left 15px
+  height 50px
+  float:left
+  display inline-block
   padding 15px 25px 5px
   border-left none
 
@@ -58,15 +55,39 @@ header#menubar
   margin 1em 1em
 
 nav
-  display block
-  margin-left 500px
+  display inline-block
   min-width 500px
+  padding 1.5em
+  float left
+  height 50px
+  z-index: 100;
   
     
 nav a
   color grey
   &:hover
     text-decoration none
+  margin: 0 5px;
+  padding-right: 15px;
+  border-right: 1px dotted #eee;
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #353535;
+}
+
+#fb
+  height 50px
+  padding 1.2em
+  float right
+  display inline-block
+  img
+    height 21px
+    
 
 h2
   font-color #000
@@ -94,33 +115,35 @@ p
     height auto
 
 :target
-  padding-top 50px
+  //padding-top 50px
 
 .container
   width 80%
   margin 0 auto
-  min-width 850px
+  //min-width 900px
 
 article.post
-  padding 1em
+  padding 1em 0
   margin 1em 0 1em
 
 .photoset
-  oveflow scroll
+  height 120px
+  overflow-x scroll;
+  overflow-y hidden;
+  white-space nowrap
+
   margin 10px 0
+  padding 5px
   background: #ddd
-  padding: 8px
   border-radius(5px)
   display inline-block
 
 .photoset a
-  width 100px
-  height 100px
   text-decoration: none
 
 .photoset a img
   margin 5px
-  width 100px
+  min-width 133px
   height 100px
 
 .team
@@ -136,36 +159,24 @@ article.post
 
 div.title
   vertical-align middle
-  height 2em
   margin-bottom 2em
-  padding 20px 0
   display block
   width 100%
   clear both
-  font-size 40pt
+  font-size 22pt
+  position relative
 
-  hr.left
+  hr
+    margin 0
     border 0
-    color red
-    background-color red
-    height 2px
-    float left
-    width 10%
-    display inline-block
+    background-color black
+    height 3px
 
   span
-    color lgrey
-    float left
-    margin .3em 1em
-    display inline-block
-
-  hr.right
-    border 0
-    color red
-    background-color red
-    height 2px
-    overflow hidden
-    display block
+    margin 10%
+    color orange
+    line-height 70px
+    vertical-align middle
 
 #slides
   //position relative

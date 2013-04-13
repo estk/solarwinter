@@ -163,27 +163,6 @@ a:hover {
 
 /* navigation */
 
-nav {
-  position: fixed;
-  top: 17px;
-  right: 15px;
-  z-index: 100;
-}
-
-nav a {
-  margin: 0 5px;
-  padding-right: 15px;
-  border-right: 1px dotted #eee;
-}
-
-nav a:last-child {
-  border-right: none;
-}
-
-nav a.active {
-  font-weight: bold;
-  color: #353535;
-}
 
 /* clearfix */
 
@@ -210,17 +189,17 @@ html[xmlns] .clearfix {
 
 /* boxes */
 
-#boxes {
-  background: url(images/hr.png) top center no-repeat;
-  margin-left: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 12px;
-}
+/*#boxes {*/
+  /*background: url(images/hr.png) top center no-repeat;*/
+  /*margin-left: 50px;*/
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
+  /*font-size: 12px;*/
+/*}*/
 
-.inner #boxes {
-  font-size: 13px;
-}
+/*.inner #boxes {*/
+  /*font-size: 13px;*/
+/*}*/
 
 #boxes section {
   width: 180px;

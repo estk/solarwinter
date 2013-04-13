@@ -142,9 +142,9 @@ body > header a.back:hover {
   margin: 40px;
 }
 
-article.post {
-  margin-bottom: 60px;
-}
+/*article.post {*/
+  /*margin-bottom: 60px;*/
+/*}*/
 
 article.post .content img {
   max-width: 100%;

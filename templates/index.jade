@@ -73,6 +73,41 @@ block content
             a(href=article.url) read more
     //-a(href='archive.html')#archive Visit the archives!
 
+
+  div#partners.newsection
+    div.imgcontainer
+      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
+    div.title
+      hr.left
+      span PARTNERS
+      hr.right
+
+  div.container
+    - var partnerarticles = _.chain(contents.partners.alliances._.directories).map(function(item) {
+    -   // map articles to index pages of subdirectories of 'articles'
+    -   return item.index
+    - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+    -   // sort them by date
+    -   return -item.date
+    - }).filter(function(item) {
+    -     return item.metadata.published
+    - }).first(5).value() // and finally take the first 5
+    each article in partnerarticles
+      article.post
+        header
+          h2= article.title
+            //-a(href=article.url)= article.title
+          //-p
+            //-mixin author(article.metadata.author)
+            //-p tags: #{article.metadata.tags}
+        section.content!= article.intro
+        if article.hasMore
+          p.read-more
+            a(href=article.url) read more
+    //-a(href='archive.html')#archive Visit the archives!
+
+
+
   div#heritage
     a(name="heritage")
     p heritage
