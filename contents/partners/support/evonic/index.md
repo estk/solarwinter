@@ -1,14 +1,9 @@
 ---
 
-title: Materials and Systems Support
+title: Evonic
 published: true
 
 ---
-
-
-
-###Evonic
-
 
 <a href="http://www.evonik.com/">![Evonic](evonic.jpg)</a>
 

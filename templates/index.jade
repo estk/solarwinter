@@ -84,27 +84,33 @@ block content
 
   div.container
     - var partnerarticles = _.chain(contents.partners.alliances._.directories).map(function(item) {
-    -   // map articles to index pages of subdirectories of 'articles'
     -   return item.index
-    - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
-    -   // sort them by date
+    - }).compact().sortBy(function(item) { 
     -   return -item.date
     - }).filter(function(item) {
     -     return item.metadata.published
     - }).first(5).value() // and finally take the first 5
+    - var supportarticles = _.chain(contents.partners.support._.directories).map(function(item) {
+    -   return item.index
+    - }).compact().sortBy(function(item) { 
+    -   return -item.date
+    - }).filter(function(item) {
+    -     return item.metadata.published
+    - }).first(5).value() // and finally take the first 5
+
+    h2 Technical Partnerships
     each article in partnerarticles
       article.post
         header
-          h2= article.title
-            //-a(href=article.url)= article.title
-          //-p
-            //-mixin author(article.metadata.author)
-            //-p tags: #{article.metadata.tags}
+          h3= article.title
         section.content!= article.intro
-        if article.hasMore
-          p.read-more
-            a(href=article.url) read more
-    //-a(href='archive.html')#archive Visit the archives!
+
+    h2 Materials and Systems Support
+    each article in supportarticles
+      article.post
+        header
+          h3= article.title
+        section.content!= article.intro
 
 
   div#heritage.newsection

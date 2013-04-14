@@ -1,14 +1,9 @@
 ---
 
-title: Materials and Systems Support
+title: Amber Composites
 published: true
 
 ---
-
-
-
-###Amber Composites
-
 
 <a href="http://www.ambercomposites.com/">![Amber Composites](ambercomposites.jpg)</a>
 

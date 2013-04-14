@@ -1,14 +1,9 @@
 ---
 
-title: Materials and Systems Support
+title: DuPont
 published: true
 
 ---
-
-
-
-###DuPont
-
 
 <a href="http://www.dupont.com/">![DuPont](dupont.jpg)</a>
 
