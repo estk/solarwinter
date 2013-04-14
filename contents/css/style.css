@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-  background: url(images/hr.png) top center no-repeat;
+  /*background: url(images/hr.png) top center no-repeat;*/
   margin-top: 40px;
   padding-top: 50px;
   padding-bottom: 5px;
@@ -160,9 +160,6 @@ a:hover {
   width: 8px;
   height: 5px;
 }
-
-/* navigation */
-
 
 /* clearfix */
 

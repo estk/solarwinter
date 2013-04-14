@@ -38,12 +38,12 @@ block content
     //-a(href='archive.html')#archive Visit the archives!
 
   div#duo.newsection
-    div.imgcontainer
-      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
     div.title
       hr.left
       span  SUNSEEKER DUO
       hr.right
+    div.imgcontainer
+      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
 
   div.container
     - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
@@ -75,12 +75,12 @@ block content
 
 
   div#partners.newsection
-    div.imgcontainer
-      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
     div.title
       hr.left
       span PARTNERS
       hr.right
+    div.imgcontainer
+      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
 
   div.container
     - var partnerarticles = _.chain(contents.partners.alliances._.directories).map(function(item) {
@@ -107,18 +107,22 @@ block content
     //-a(href='archive.html')#archive Visit the archives!
 
 
+  div#heritage.newsection
+    div.title
+      hr.left
+      span HERITAGE
+      hr.right
+    div.imgcontainer
+      img(src="/articles/6-17-12/Sunseeker_Duo_067_corr.jpg")
 
-  div#heritage
-    a(name="heritage")
-    p heritage
 
   div#team.newsection
-    div.imgcontainer
-      img(src="/images/teamheader.jpg")
     div.title
       hr.left
       span TEAM
       hr.right
+    div.imgcontainer
+      img(src="/images/teamheader.jpg")
 
   div.container.team
     - var teamarticles = _.chain(contents.team._.directories).map(function(item) {

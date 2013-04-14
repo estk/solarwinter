@@ -36,3 +36,16 @@ $(function() {
 jQuery(document).ready(function () {
   jQuery('div.photoset a').colorbox({scalePhotos: true, transition:"elastic", maxWidth: "80%"});
 });
+
+$(function () {
+$("a").click(function (e) {
+//e.preventDefault();
+$("a").addClass("active").not(this).removeClass("active");
+});
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({scrollLeft: 0});
+  });
+});
