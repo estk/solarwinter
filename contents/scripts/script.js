@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
 
 $(function () {
 $("a").click(function (e) {
-//e.preventDefault();
+e.preventDefault();
 $("a").addClass("active").not(this).removeClass("active");
 });
 });
