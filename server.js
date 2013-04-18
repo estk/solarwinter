@@ -6,5 +6,5 @@ connect.createServer(
     connect.compress(),
     connect.logger('short'),
     connect.static(__dirname + '/build', { maxAge: oneDay })
-)listen(port);
+).listen(port);
 
