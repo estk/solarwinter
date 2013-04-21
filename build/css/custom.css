@@ -4,9 +4,6 @@ body {
   line-height: 120%;
   color: #001436;
 }
-.newsection {
-  margin-bottom: 50px;
-}
 .partners {
   margin-bottom: 100px;
 }
@@ -101,23 +98,38 @@ p {
 }
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 article.post {
   padding: 1em 0;
   margin: 1em 0 1em;
-  display: inline-block;
+  display: block;
 }
 .photoset {
-  float: right;
+  display: inline-block;
+  text-align: left;
+  height: 100px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 10px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 100%;
 }
 .photoset a {
   text-decoration: none;
-  display: block;
 }
 .photoset a img {
-  height: 400px;
-  margin: 1em;
+  height: 100px;
+  margin: 0 1em;
+}
+.photoset a img:first-child {
+  margin-left: 0;
+}
+.photoset a img:last-child {
+  margin-right: 0;
 }
 .team article {
   margin: 2em 0;
@@ -132,7 +144,7 @@ article.post {
   width: 148;
 }
 div.title {
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 4em;
   vertical-align: middle;
   display: block;
@@ -168,12 +180,12 @@ div.title span {
   text-align: center;
   border-bottom: 1px solid;
   height: 160px;
-  font: 25pt 'Helvetica Light', sans-serif;
+  font: 22pt 'Helvetica Light', sans-serif;
   width: 100%;
 }
 .partner img {
   text-align: center;
-  max-height: 125px;
+  max-height: 100px;
   max-width: 200px;
   margin: auto 0;
   vertical-align: middle;
@@ -187,7 +199,7 @@ div.title span {
   border-bottom: none;
 }
 .partners .name {
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   width: 60%;
   line-height: 160px;
