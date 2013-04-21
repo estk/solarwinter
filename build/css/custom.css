@@ -4,6 +4,9 @@ body {
   line-height: 120%;
   color: #001436;
 }
+body img {
+  max-width: 100%;
+}
 .partners {
   margin-bottom: 100px;
 }
@@ -11,14 +14,18 @@ a {
   color: #fc8f46;
 }
 header#menubar {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
   z-index: 100;
-  width: 100%;
+  min-width: 100%;
   position: fixed;
-  height: 50px;
-  display: block;
-  background: #fff;
   top: 0;
   left: 0;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #fff;
   border-bottom: 1px solid #ddd;
   -webkit-box-shadow: 0 0 4px #eee;
   -moz-box-shadow: 0 0 4px #eee;
@@ -30,14 +37,19 @@ header#menubar {
   height: 50px;
   float: left;
   display: inline-block;
-  margin: 15px 25px 5px;
+  margin: 0 25px;
   border-left: none;
+}
+#logo img {
+  vertical-align: middle;
 }
 .inner {
   margin: 1em 1em;
 }
 nav {
-  min-width: 500px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
   float: left;
   height: 50px;
   z-index: 100;
@@ -62,14 +74,16 @@ nav a.active {
 }
 #fb {
   height: 50px;
-  padding: 1.2em;
+  padding: 0 1.2em;
   float: right;
   display: inline-block;
 }
 #fb img {
+  vertical-align: middle;
   height: 21px;
 }
 h2 {
+  line-height: 120%;
   color: #fc8f46;
 }
 p {
