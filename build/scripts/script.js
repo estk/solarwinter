@@ -38,10 +38,9 @@ jQuery(document).ready(function () {
 });
 
 $(function () {
-$("a").click(function (e) {
-e.preventDefault();
-$("a").addClass("active").not(this).removeClass("active");
-});
+  $("a").click(function (e) {
+    $("a").addClass("active").not(this).removeClass("active");
+  });
 });
 
 $(document).ready(function(){
@@ -49,3 +48,9 @@ $(document).ready(function(){
     $("div").animate({scrollLeft: 0});
   });
 });
+
+$(document).ready(function(){
+  $(".container").nanoScroller({ scroll: 'bottom' });
+});
+
+
