@@ -15,10 +15,9 @@ Solair 1 was based on a Hans Farner canard design. It employed 2499 wing-mounted
 
 Solar Flight's efforts are dedicated to the memory of Professor Günther Rochelt.
 
+<iframe src="http://player.vimeo.com/video/14810957?title=0&amp;byline=0&amp;portrait=0" width="620" height="377" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-<iframe src="http://player.vimeo.com/video/14810957?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-<iframe src="http://player.vimeo.com/video/14809359" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/14809359" width="620" height="377" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
 ![Solair II crew](solair2team.jpg)

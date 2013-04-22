@@ -102,7 +102,7 @@ block content
       - var heritagearticles = _.chain(contents.heritage._.directories).map(function(item) {
       -   return item.index
       - }).compact().sortBy(function(item) {
-      -   return item.metadata.rank
+      -   return -item.metadata.rank
       - }).filter(function(item) {
       -     return item.metadata.published
       - }).value() 

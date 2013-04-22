@@ -45,17 +45,21 @@ a
   color: orange
 
 header#menubar
-  overflow-x scroll;
-  overflow-y hidden;
-  white-space nowrap
-  z-index 100
-  min-width 100%
   position fixed
   top 0
   left 0
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space nowrap
+  
+  display block
   height 50px
   line-height 50px
-  display block
+  width 100%
+  z-index 100
+  padding 0 1px
+
   background: rgba(255,255,255,1)  
   border-bottom 1px solid #ddd;
   box-shadow 0 0 4px #eee;
@@ -64,10 +68,8 @@ header#menubar
   z-index 100
   width 200px
   height 50px
-  float:left
   display inline-block
-  margin 0 25px
-  border-left none
+  margin 0 15px
   img
     vertical-align middle
 
@@ -75,17 +77,16 @@ header#menubar
   margin 1em 1em
 
 nav
-  overflow-x hidden;
-  overflow-y hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   white-space nowrap
-  float left
+  display inline-block
   height 50px
   z-index: 100;
   
     
 nav a
   vertical-align: middle
-  line-height 50px
   font-size: 12px
   color grey
   &:hover
@@ -95,6 +96,7 @@ nav a
   border-right: 1px dotted #eee;
 
 nav a:last-child {
+  padding-right 0
   border-right: none;
 }
 
@@ -103,18 +105,22 @@ nav a.active {
 }
 
 #fb
-  height 50px
-  padding 0 1.2em
-  float right
+  width 22px
+  margin 5px
+  margin 0 1.2em
   display inline-block
+  float right
+  a
+    display inline
   img
-    vertical-align middle
     height 21px
-    
+    float right
+    vertical-align middle
+
+
 
 h2
   line-height 120%
-  //font-color #000
   color orange
 
 p
@@ -139,10 +145,6 @@ p
     width 100%
     height auto
 
-
-:target
-  padding-top 50px
-
 .container
   width 80%
   margin 0 auto 100px
@@ -162,12 +164,13 @@ article.post
   display inline-block
   text-align:left
   height 100px
-  overflow-x scroll;
-  overflow-y hidden;
-  white-space nowrap
+  //overflow-x scroll;
+  //overflow-y hidden;
+  overflow hidden
+  //white-space nowrap
   margin 10px 0
-  border-radius(5px)
-  max-width 100%
+  //border-radius(5px)
+  max-width 68%
 
 .photoset a
   text-decoration: none
@@ -270,3 +273,11 @@ div.title
     margin 0
     height 100%
     display inline
+
+#heritage
+  img, iframe
+    margin 2em 0
+  img
+    width 100%
+  iframe 
+    width 67%
