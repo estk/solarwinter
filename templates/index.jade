@@ -65,7 +65,7 @@ block content
       -   return -item.date
       - }).filter(function(item) {
       -     return item.metadata.published
-      - }).first(5).value()
+      - }).value()
 
       - var supportarticles = _.chain(contents.partners.support._.directories).map(function(item) {
       -   return item.index
@@ -73,23 +73,23 @@ block content
       -   return -item.date
       - }).filter(function(item) {
       -     return item.metadata.published
-      - }).first(5).value()
+      - }).value()
 
       h2 Technical Alliances
       p Solar Flight's technical alliance are technology leaders of sport aviation. They contribute major resources to the construction of the Sunseeker Duo.
       table.partners
         each article in alliancearticles
           tr.partner
-            td.name= article.title
             td.logo!= article.html
+            td.name= article.title
 
       h2 Materials and Systems Support
       p Solar Flight demands the best form every material, every component, and every system that it uses in its aircraft. The companies that support Solar Flight are the best in their fields.
       table.partners
         each article in supportarticles
           tr.partner
-            td.name= article.title
             td.logo!= article.html
+            td.name= article.title
 
 
   div#heritage.newsection
@@ -119,6 +119,7 @@ block content
       hr.right
     div.container.team
       - var teamarticles = _.chain(contents.team._.directories).map(function(item) {
+      -   item.index.metadata.pic = item['#{item.value()}.jpg']
       -   return item.index
       - }).compact().sortBy(function(item) { 
       -   return -item.date

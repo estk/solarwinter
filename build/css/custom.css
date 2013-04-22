@@ -2,18 +2,16 @@ body {
   font: 15px 'Garaamond', serif;
   letter-spacing: 1px;
   line-height: 120%;
-  color: #001436;
+  color: #000;
 }
 body img {
   max-width: 100%;
 }
-.partners {
-  margin-bottom: 100px;
-}
 a {
-  color: #fc8f46;
+  color: #259dff;
 }
 header#menubar {
+  font: 100% 'Helvetica', sans-serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,6 +31,7 @@ header#menubar {
   box-shadow: 0 0 4px #eee;
 }
 #logo {
+  float: left;
   z-index: 100;
   width: 200px;
   height: 50px;
@@ -50,6 +49,7 @@ nav {
   overflow-y: hidden;
   white-space: nowrap;
   display: inline-block;
+  float: left;
   height: 50px;
   z-index: 100;
 }
@@ -68,27 +68,41 @@ nav a:last-child {
   padding-right: 0;
   border-right: none;
 }
-nav a.active {
-  color: #fc8f46;
-}
-#fb {
-  width: 22px;
-  margin: 5px;
-  margin: 0 1.2em;
-  display: inline-block;
-  float: right;
-}
-#fb a {
-  display: inline;
-}
-#fb img {
+#social {
   height: 21px;
   float: right;
+  margin: 0 1.2em;
+  display: inline-block;
+}
+#social a {
+  display: inline-block;
+}
+#social img {
+  vertical-align: middle;
+  height: 21px;
+  width: 21px;
+  margin: 5px;
+}
+.post header h2 {
+  font: 100% 'Helvetica', sans-serif;
+  color: #001436;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 1px;
+  border-color: #fc8f46;
+  margin-bottom: 1em;
   vertical-align: middle;
 }
-h2 {
-  line-height: 120%;
-  color: #fc8f46;
+h2,
+h3 {
+  font: 100% 'Helvetica', sans-serif;
+  color: #001436;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 1px;
+  border-color: #fc8f46;
+  vertical-align: middle;
+  margin: 20px 0 1em 0;
 }
 p {
   width: 67%;
@@ -154,13 +168,15 @@ article.post {
   width: 148;
 }
 div.title {
+  font: 100% 'Helvetica', sans-serif;
+  height: 50px;
   margin-top: 0;
   margin-bottom: 4em;
   vertical-align: middle;
   display: block;
   width: 100%;
   clear: both;
-  font-size: 22pt;
+  font-size: 19pt;
   position: relative;
 }
 div.title hr {
@@ -172,7 +188,7 @@ div.title hr {
 div.title span {
   margin: 10%;
   color: #fc8f46;
-  line-height: 70px;
+  line-height: 50px;
   vertical-align: middle;
 }
 #slides {
@@ -182,15 +198,13 @@ div.title span {
   max-width: 100%;
   height: auto;
 }
-.container h2 {
-  font-size: 22pt;
-  color: #001436;
-}
 .partner {
   text-align: center;
   border-bottom: 1px solid;
+  border-color: #000;
   height: 160px;
-  font: 22pt 'Helvetica Light', sans-serif;
+  font: 19pt 'Helvetica', sans-serif;
+  font-weight: heavy;
   width: 100%;
 }
 .partner img {
@@ -201,8 +215,8 @@ div.title span {
   vertical-align: middle;
 }
 .partners {
+  margin-bottom: 100px;
   width: 100%;
-  margin-top: 4em;
   color: #000;
 }
 .partners tr:last-child {
