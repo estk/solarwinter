@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-/*body {*/
-  /*font: 400 14px/1.6 "Open Sans", sans-serif;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
-  /*color: #777;*/
-/*}*/
-
 h1, h2, h3 {
   margin: 5px 0;
   font-weight: normal;
@@ -39,9 +32,7 @@ strong {
 }
 
 #content {
-  /*margin-left: 80px;*/
   width: 100%;
-  /*margin-bottom: 80px;*/
 }
 
 li code {
@@ -54,7 +45,6 @@ section section p {
 
 
 h3 {
-  /*background: url(images/hr.png) top center no-repeat;*/
   margin-top: 40px;
   padding-top: 50px;
   padding-bottom: 5px;
@@ -72,16 +62,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
-/*#logo {*/
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*margin: 0;*/
-  /*padding: 10px 25px;*/
-  /*width: auto;*/
-  /*border-left: none;*/
-/*}*/
-
 #logo .express {
   font-size: 25px;
 }
@@ -93,41 +73,6 @@ a:hover {
 .description {
   display: none;
 }
-
-/* code */
-
-/*p code {*/
-  /*background: #efefef;*/
-  /*border: 1px solid #eaeaea;*/
-  /*font-family: monaco, monospace;*/
-  /*font-size: .75em;*/
-  /*padding: 2px 8px;*/
-  /*-webkit-border-radius: 3px;*/
-/*}*/
-
-/*pre {*/
-  /*color: #353535;*/
-  /*font-size: 14px;*/
-  /*line-height: 1.4;*/
-  /*margin: 20px 0;*/
-  /*padding: 20px;*/
-  /*background: white;*/
-  /*border: 1px solid #e7e7e7;*/
-  /*border-bottom: 1px solid #ddd;*/
-  /*-webkit-box-shadow: 0 1px 3px 0 #eee;*/
-  /*-webkit-border-radius: 3px;*/
-/*}*/
-
-/*pre code {*/
-  /*font-family: monaco, monospace;*/
-  /*font-size: .8em;*/
-/*}*/
-
-/*code .comment { color: #888 }*/
-/*code .init { color: #2F6FAD }*/
-/*code .string { color: #5890AD }*/
-/*code .keyword { color: #8A6343 }*/
-/*code .number { color: #2F6FAD }*/
 
 /* top button */
 
@@ -182,18 +127,6 @@ html[xmlns] .clearfix {
 }
 
 /* boxes */
-
-/*#boxes {*/
-  /*background: url(images/hr.png) top center no-repeat;*/
-  /*margin-left: 50px;*/
-  /*padding-top: 50px;*/
-  /*padding-bottom: 50px;*/
-  /*font-size: 12px;*/
-/*}*/
-
-/*.inner #boxes {*/
-  /*font-size: 13px;*/
-/*}*/
 
 #boxes section {
   width: 180px;
@@ -361,21 +294,4 @@ html[xmlns] .clearfix {
     margin-top: 20px;
     margin-left: 0;
   }
-}
-
-/* tmp */
-
-#logos, footer {
-  display: none;
-}
-
-#book {
-  position: relative;
-}
-
-#book img {
-  position: absolute;
-  top: 0;
-  right: -110px;
-  width: 50%;
 }
