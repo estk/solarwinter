@@ -2,30 +2,30 @@ extends layout
 
 block content
   div!= page.html 
-  div#log.newsection
+  div#log
     div.title
       hr.left
       span FLIGHT LOG
       hr.right
 
-  div.container
-    include author
-    - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
-    -   return item.index
-    - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
-    -   return -item.date
-    - }).filter(function(item) {
-    -   if (typeof item.metadata.published != "undefined") {
-    -     return (item.metadata.published && 1 + item.metadata.tags.search(/log/))
-    -   }else {
-    -     return false
-    -   }
-    - }).first(5).value() 
-    each article in logarticles
-      article.post
-        header
-          h2= article.title
-        section.content!= article.html
+    div.container
+      include author
+      - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
+      -   return item.index
+      - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+      -   return -item.date
+      - }).filter(function(item) {
+      -   if (typeof item.metadata.published != "undefined") {
+      -     return (item.metadata.published && 1 + item.metadata.tags.search(/log/))
+      -   }else {
+      -     return false
+      -   }
+      - }).first(5).value() 
+      each article in logarticles
+        article.post
+          header
+            h2= article.title
+          section.content!= article.html
 
   div#duo
     div.title
@@ -33,26 +33,26 @@ block content
       span  SUNSEEKER DUO
       hr.right
 
-  div.container
-    - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
-    -   return item.index
-    - }).compact().sortBy(function(item) { 
-    -   return -item.date
-    - }).filter(function(item) {
-    -   if (typeof item.metadata.tags != "undefined") {
-    -     return (item.metadata.published && 1 + item.metadata.tags.search(/duo/))
-    -   }else {
-    -     return false
-    -   }
-    - }).first(5).value() 
-    each article in duoarticles
-      article.post
-        header
-          h2= article.title
-        section.content!= article.html
+    div.container
+      - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
+      -   return item.index
+      - }).compact().sortBy(function(item) { 
+      -   return -item.date
+      - }).filter(function(item) {
+      -   if (typeof item.metadata.tags != "undefined") {
+      -     return (item.metadata.published && 1 + item.metadata.tags.search(/duo/))
+      -   }else {
+      -     return false
+      -   }
+      - }).first(5).value() 
+      each article in duoarticles
+        article.post
+          header
+            h2= article.title
+          section.content!= article.html
 
 
-  div#partners.newsection
+  div#partners
     div.title
       hr.left
       span PARTNERS
@@ -92,7 +92,7 @@ block content
             td.name= article.title
 
 
-  div#heritage.newsection
+  div#heritage
     div.title
       hr.left
       span HERITAGE
@@ -112,7 +112,7 @@ block content
             h2= article.title
           section.content.clearfix!= article.html
 
-  div#team.newsection
+  div#team
     div.title
       hr.left
       span TEAM
@@ -133,8 +133,14 @@ block content
           section.content.clearfix!= article.html
 
   div#contact
-    a(name="contact")
-    p contact
+    div.title
+      hr.left
+      span CONTACT
+      hr.right
+    div.container.contact
+      - var contactinfo = contents['contact.md']
+      section.content!= contactinfo.html
+
   
 
 
