@@ -240,17 +240,45 @@ div.title span {
   height: 100%;
   display: inline;
 }
-#heritage img,
-#heritage iframe {
-  margin: 2em 0;
-}
-#heritage img {
-  width: 100%;
-}
-#heritage iframe {
-  width: 67%;
+#duo #duoimg {
+  margin-bottom: 2em;
 }
 #contact .container div {
   text-align: center;
   margin: 20px 0;
+}
+/* Photo Boxes */
+.img-full {
+  width: 100%;
+  margin: 20px 0;
+}
+.img-full img {
+  width: 100%;
+}
+.img-dh {
+  clear: both;
+  float: right;
+  width: 550px;
+  margin: 2px 0 20px 10px;
+}
+.img-dh img {
+  width: 250px;
+  margin: 0 10px;
+}
+.img-dv {
+  float: right;
+  width: 270px;
+  margin: 20px 33% 20px 10px;
+}
+.img-dv img {
+  width: 250px;
+  margin: 10px;
+}
+.img-23 {
+  clear: both;
+  float: right;
+  margin: 20px 0 20px 10px;
+}
+.img-23 img {
+  height: 300px;
 }
