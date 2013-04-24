@@ -2,7 +2,7 @@
 
 title: Edelweiss
 published: true
-rank: 4
+rank: 3
 
 ---
 
