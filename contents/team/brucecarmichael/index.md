@@ -1,6 +1,7 @@
 ---
 
 title: Bruce Carmichael
+rank: 5
 published: true
 
 ---

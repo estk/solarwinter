@@ -1,10 +1,11 @@
 ---
 
 title: Roman Susnik
+rank: 10
 published: true
 
 ---
-A designer and builder with a long history of unique aircraft. Bill Watson is an expert in the field of airship design and construction. He served as the chief construction engineer for the Icarus HPA-1 and Gossamer Albatross human powered aircraft. He also designed and built the human powered airship White Dwarf, which set a distance record for its class with Bryan Allen as pilot and motor. He has consulted extensively with numerous companies including Boeing in the development of their own airship projects.
+Roman Susnik is an expert glider pilot, who has developed his own electric motors for aircraft. See http://www.enstroj.si/ to see his electric Apis, and other projects. Roman is developing a new 20 kW direct drive motor and controller for the new two seat Sunseeker Duo.
 
 <div>
 ![Roman Susnik](roman.jpg)

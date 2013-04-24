@@ -5,7 +5,15 @@ published: true
 rank: 1
 
 ---
-![Musculair II in flight](musculair2.jpg)
+
+<div class="img-full">
+![Musculair II in flight](croppedmusculair.jpg)
+</div>
+
+<div class="img-dv">
+![Passenger Flight](passenger.jpg)
+![Solair II crew](solair2team.jpg)
+</div>
 
 After a successful hang gliding career and constructing several of his own gliders Eric Raymond was invited by Rochelt to fly his human powered airplane, Musculair II. Musculair II was groundbreaking in its simplicity and to this day remains the fastest human powered aircraft ever built. With Rochelt's encouragement, Raymond conceptualized the original Sunseeker. The configuration was based on that of Musculair II and Rochelt passed on the novel construction techniques that he used to acheive phenomonally lightweight, yet robust structures.
 
@@ -15,5 +23,4 @@ Solair 1 was based on a Hans Farner canard design. It employed 2499 wing-mounted
 
 Solar Flight's efforts are dedicated to the memory of Professor Günther Rochelt.
 
-![Solair II crew](solair2team.jpg)
 

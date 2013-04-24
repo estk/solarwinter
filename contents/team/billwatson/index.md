@@ -1,6 +1,7 @@
 ---
 
 title: Bill Watson
+rank: 4
 published: true
 
 ---

@@ -1,6 +1,7 @@
 ---
 
 title: Eric Raymond
+rank: 1
 published: true
 
 ---

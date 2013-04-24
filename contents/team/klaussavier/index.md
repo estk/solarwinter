@@ -1,6 +1,7 @@
 ---
 
 title: Klaus Savier
+rank: 3
 published: true
 
 ---

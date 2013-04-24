@@ -1,6 +1,7 @@
 ---
 
 title: '"RC" Dave Freund'
+rank: 9
 published: true
 
 ---

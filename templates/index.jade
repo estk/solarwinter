@@ -34,6 +34,9 @@ block content
       hr.right
 
     div.container
+      - var duointro = contents.duo['index.md']
+      article!= duointro.html
+
       - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
       -   return item.index
       - }).compact().sortBy(function(item) { 
@@ -49,7 +52,7 @@ block content
         article.post
           header
             h2= article.title
-          section.content!= article.html
+          section.content.clearfix!= article.html
 
 
   div#partners
@@ -122,7 +125,7 @@ block content
       -   item.index.metadata.pic = item['#{item.value()}.jpg']
       -   return item.index
       - }).compact().sortBy(function(item) { 
-      -   return -item.date
+      -   return item.metadata.rank
       - }).filter(function(item) {
       -     return item.metadata.published
       - }).value() 

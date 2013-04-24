@@ -1,6 +1,7 @@
 ---
 
 title: Bryan Allen
+rank: 6
 published: true
 
 ---

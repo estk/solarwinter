@@ -1,6 +1,7 @@
 ---
 
 title: Irena Raymond
+rank: 2
 published: true
 
 ---
