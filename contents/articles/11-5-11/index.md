@@ -11,7 +11,7 @@ The Sunseeker Duo is truly an international effort.  Consider that the fuselage 
 
 Here we introduce the engineering effort on the nose gear from our friends in Santa Paula, California.
 
-The nose gear is a crucial assembly, requiring shock absorbtion, steering, and retraction, all in a reliable light weight package. Rick McWilliams (http://www.tangentinstruments.com/)designed the trouble free nose gear for the Mermaid amphibian, so he got the job of designing our nose gear under very demanding weight and space constraints.
+The nose gear is a crucial assembly, requiring shock absorbtion, steering, and retraction, all in a reliable light weight package. Rick McWilliams (http://www.tangentinstruments.com/) designed the trouble free nose gear for the Mermaid amphibian, so he got the job of designing our nose gear under very demanding weight and space constraints.
 
 
 
