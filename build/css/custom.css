@@ -1,5 +1,5 @@
 body {
-  font: 15px 'Garaamond', serif;
+  font: 14px 'Garaamond', serif;
   letter-spacing: 1px;
   line-height: 120%;
   color: #000;
@@ -86,8 +86,8 @@ nav a:last-child {
 .post header h2 {
   font: 100% 'Helvetica', sans-serif;
   color: #001436;
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 30px;
   border-bottom: solid 1px;
   border-color: #fc8f46;
   margin-bottom: 1em;
@@ -168,7 +168,7 @@ article.post {
   width: 148;
 }
 div.title {
-  font: 18pt 'Helvetica', sans-serif;
+  font: 17pt 'Helvetica', sans-serif;
   height: 50px;
   margin-top: 0;
   margin-bottom: 2em;
@@ -202,7 +202,7 @@ div.title span {
   border-bottom: 1px solid;
   border-color: #000;
   height: 160px;
-  font: 18pt 'Helvetica', sans-serif;
+  font: 17pt 'Helvetica', sans-serif;
   font-weight: bold;
   width: 100%;
 }
@@ -242,6 +242,9 @@ div.title span {
 }
 #duo #duoimg {
   margin-bottom: 2em;
+}
+#contact .container {
+  height: 950px;
 }
 #contact .container div {
   text-align: center;
