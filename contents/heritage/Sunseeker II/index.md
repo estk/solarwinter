@@ -24,8 +24,8 @@ Sunseeker I and II have logged, by a huge margin, more flight hours than any oth
 </div>
 
 <div class="img-dh">
-![Alps Cockpit](thumbs/alpscockpit.jpeg)
-![Arrival](thumbs/arrival.jpeg)
+![Alps Cockpit](thumbs/alpscockpit.jpg)
+![Arrival](thumbs/arrival.jpg)
 </div>
 
 99 years after the first crossing of the Alps in an airplane by Geo Chávez flying a Blériot XI, Eric Raymond completed the first crossing of the Alps made by a solar-powered airplane flying Sunseeker II.

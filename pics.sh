@@ -33,5 +33,5 @@ cd ../"Sunseeker II"
 
 mkdir thumbs
 mogrify -resize 452x300 -format jpg -quality 75 -path thumbs sunseekerII.jpg
-mogrify -resize 250x187 -format jpg -quality 75 -path thumbs alpscockpit.jpeg
-mogrify -resize 250x187 -format jpg -quality 75 -path thumbs arrival.jpeg
+mogrify -resize 250x187 -format jpg -quality 75 -path thumbs alpscockpit.jpg
+mogrify -resize 250x187 -format jpg -quality 75 -path thumbs arrival.jpg
