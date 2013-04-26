@@ -7,7 +7,7 @@ rank: 4
 ---
 
 <div class="img-23">
-![SunseekerII](sunseekerII.jpg)
+![SunseekerII](thumbs/sunseekerII.jpg)
 </div>
 
 In 2006 many improvements to the original Sunseeker were completed. The new airplane, dubbed Sunseeker II, featured a redesigned wing with more area for solar cells, a more powerful motor, new lithium polymer batteries, and an updated electrical system. In 2009, again with Eric Raymond in the cockpit, Sunseeker II completed a vast flying tour of Europe. The tour began with the first crossing of the Alps every made by a solar powered airplane and continued down the length of Italy to Sicily, followed by a route along the Dolomites through Austria and Slovenia, and finally a journey through the South of France and Spain ending at Spain’s southern coast.  
@@ -24,8 +24,8 @@ Sunseeker I and II have logged, by a huge margin, more flight hours than any oth
 </div>
 
 <div class="img-dh">
-![Alps Cockpit](alpscockpit.jpeg)
-![Arrival](arrival.jpeg)
+![Alps Cockpit](thumbs/alpscockpit.jpeg)
+![Arrival](thumbs/arrival.jpeg)
 </div>
 
 99 years after the first crossing of the Alps in an airplane by Geo Chávez flying a Blériot XI, Eric Raymond completed the first crossing of the Alps made by a solar-powered airplane flying Sunseeker II.
