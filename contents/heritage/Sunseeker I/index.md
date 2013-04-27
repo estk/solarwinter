@@ -33,5 +33,5 @@ In early 1990 battery powered flights were made with two brush motors driving a 
 ![Sunseeker I at Chanute airport](thumbs/chanute.jpg)
 </div>
 
-After many long test flights, a series of flights were initiated across the country. During August of 1990, The Sunseeker crossed the United States in 21 flights, with 121 hours in the air.
+Solar Flight’s first airplane, Sunseeker I, was designed for a mission to cross America, a feat it accomplished during the summer of 1990. The expedition began in the Southern California desert and with 21 flights ended in a field near the site where the Wright Brothers first flew. It was the first time that a solar-powered airplane crossed the United States, and the first demonstration of a practical solar-powered sport airplane.
 
