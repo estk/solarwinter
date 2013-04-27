@@ -84,22 +84,12 @@ nav a:last-child {
   width: 21px;
   margin: 5px;
 }
-.post header h2 {
-  font: 100% 'Helvetica', sans-serif;
+h2,
+h3 {
+  font: 17pt 'Helvetica', sans-serif;
   color: #001436;
   height: 30px;
   line-height: 30px;
-  border-bottom: solid 1px;
-  border-color: #fc8f46;
-  margin-bottom: 1em;
-  vertical-align: middle;
-}
-h2,
-h3 {
-  font: 100% 'Helvetica', sans-serif;
-  color: #001436;
-  height: 50px;
-  line-height: 50px;
   border-bottom: solid 1px;
   border-color: #fc8f46;
   vertical-align: middle;
@@ -130,9 +120,9 @@ p {
   width: 80%;
   margin: 0 auto 100px;
 }
-article.post {
+article {
   padding: 1em 0;
-  margin: 1em 0 1em;
+  margin: 1em 0 5em;
   display: block;
 }
 .photoset {
@@ -284,5 +274,5 @@ div.title span {
   margin: 20px 0 20px 10px;
 }
 .img-23 img {
-  height: 300px;
+  width: 452px;
 }
