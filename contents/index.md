@@ -4,11 +4,9 @@ title: Home Page
 template: index.jade
 
 ---
-
-<div id="slides"><img alt="It's an Adventure" src="/images/alpscrossingslide.jpg" />
+<div>
 <a href="#duo">
   <img alt="The Sunseeker Duo" src="/images/sunseekerduoslide.jpg" \> 
 </a>
-<img alt="Gunther Rochelt" src="/images/guntherrocheltslide.jpg" />
 </div>
 
