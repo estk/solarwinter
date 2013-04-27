@@ -7,17 +7,14 @@ tags: duo, home
 
 ---
 
-With help from our new team member, Peter Stegovec, we are making good progress, concentrating on the wing at the moment. Karl Kaser leads the engineering team starting work on the center section and main landing gear.
+We are making good progress on the wing at the moment. Karl Kaser leads the engineering team starting work on the center section and main landing gear.
 
 <div class="photoset">
 
 
-
-
-<a href="/articles/8-14-11/carbon_tube_winding.jpg" rel="gal-8-14-11" title="Hand winding of carbon tubes">
-  <img src="/articles/8-14-11/thumbs/carbon_tube_winding.jpg" alt= "Hand winding of carbon tubes" \>
+<a href="/articles/8-14-11/Center_section_team_pondering.jpg" rel="gal-8-14-11" title="Karl Kaser ponders things to come">
+  <img src="/articles/8-14-11/thumbs/Center_section_team_pondering.jpg" alt= "Karl Kaser ponders things to come" \>
 </a>
-
 
 
 
@@ -52,8 +49,9 @@ With help from our new team member, Peter Stegovec, we are making good progress,
 
 
 
-<a href="/articles/8-14-11/Center_section_team_pondering.jpg" rel="gal-8-14-11" title="Karl Kaser ponders things to come">
-  <img src="/articles/8-14-11/thumbs/Center_section_team_pondering.jpg" alt= "Karl Kaser ponders things to come" \>
+
+<a href="/articles/8-14-11/carbon_tube_winding.jpg" rel="gal-8-14-11" title="Hand winding of carbon tubes">
+  <img src="/articles/8-14-11/thumbs/carbon_tube_winding.jpg" alt= "Hand winding of carbon tubes" \>
 </a>
 
 
