@@ -10,7 +10,7 @@ rank: 3
 ![Edelweiss](croppededelweiss.jpg)
 </div>
 
-<div class="img-dv">
+<div class="img-dh">
 ![Edelweiss from below](thumbs/frombelow.jpg)
 ![Edelweiss at Tahachapi](thumbs/edelweisstahachapi.jpg)
 </div>

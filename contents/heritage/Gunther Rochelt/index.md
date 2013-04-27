@@ -10,7 +10,7 @@ rank: 1
 ![Musculair II in flight](croppedmusculair.jpg)
 </div>
 
-<div class="img-dv">
+<div class="img-dh">
 ![Passenger Flight](thumbs/passenger.jpg)
 ![Solair II crew](thumbs/solair2team.jpg)
 </div>

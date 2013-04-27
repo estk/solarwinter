@@ -1,5 +1,5 @@
 body {
-  font: 14px 'Garaamond', serif;
+  font: 14px 'Helvetica', serif;
   letter-spacing: 1px;
   line-height: 120%;
   color: #000;
@@ -261,7 +261,7 @@ div.title span {
   margin: 2px 0 20px 10px;
 }
 .img-dh img {
-  width: 250px;
+  max-width: 250px;
   margin: 0 10px;
 }
 .img-dv {
