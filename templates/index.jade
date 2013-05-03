@@ -2,36 +2,21 @@ extends layout
 
 block content
   div!= page.html 
-  //-div#log
-    //-div.title
-      //-hr.left
-      //-span FLIGHT LOG
-      //-hr.right
-
-    //-div.container
-      //-include author
-      //-- var logarticles = _.chain(contents.articles._.directories).map(function(item) {
-      //--   return item.index
-      //-- }).compact().sortBy(function(item) { // compact removes any directories w/o an index
-      //--   return -item.date
-      //-- }).filter(function(item) {
-      //--   if (typeof item.metadata.published != "undefined") {
-      //--     return (item.metadata.published && 1 + item.metadata.tags.search(/log/))
-      //--   }else {
-      //--     return false
-      //--   }
-      //-- }).first(5).value() 
-      //-each article in logarticles
-        //-article.post
-          //-header
-            //-h2= article.title
-          //-section.content!= article.html
+  
+  div#news
+    div.container
+      h2 Latest News:
+      - var latestnews = contents.news['index.md']
+      article!= latestnews.html
+      
+    
 
   div#duo
     div.title
-      hr.left
       span  SUNSEEKER DUO
-      hr.right
+    .imagecontainer
+      img(src="/images/sectionimages/sunseekerduo.jpg")
+
 
     div.container
       - var duointro = contents.duo['index.md']
@@ -54,12 +39,37 @@ block content
             h2= article.title
           section.content.clearfix!= article.html
 
+  div#log
+    div.title
+      span FLIGHT LOG
+    .imagecontainer
+      img(src="/images/sectionimages/logbook2.jpg")
+
+    div.container
+      include author
+      - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
+      -   return item.index
+      - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
+      -   return -item.date
+      - }).filter(function(item) {
+      -   if (typeof item.metadata.published != "undefined") {
+      -     return (item.metadata.published && 1 + item.metadata.tags.search(/log/))
+      -   }else {
+      -     return false
+      -   }
+      - }).first(5).value() 
+      each article in logarticles
+        article.post
+          header
+            h2= article.title
+          section.content!= article.html
 
   div#partners
     div.title
-      hr.left
       span PARTNERS
-      hr.right
+    .imagecontainer
+      img(src="/images/sectionimages/partners.jpg")
+
 
     div.container
       - var alliancearticles = _.chain(contents.partners.alliances._.directories).map(function(item) {
@@ -97,9 +107,10 @@ block content
 
   div#heritage
     div.title
-      hr.left
       span HERITAGE
-      hr.right
+    .imagecontainer
+      img(src="/images/sectionimages/heritage.jpg")
+
 
     div.container
       - var heritagearticles = _.chain(contents.heritage._.directories).map(function(item) {
@@ -117,9 +128,11 @@ block content
 
   div#team
     div.title
-      hr.left
       span TEAM
-      hr.right
+    .imagecontainer
+      img(src="/images/sectionimages/team.jpg")
+
+      
     div.container.team
       - var teamarticles = _.chain(contents.team._.directories).map(function(item) {
       -   item.index.metadata.pic = item['#{item.value()}.jpg']
@@ -137,9 +150,10 @@ block content
 
   div#contact
     div.title
-      hr.left
       span CONTACT
-      hr.right
+    .imagecontainer
+      img(src="/images/sectionimages/contact.jpg")
+
     div.container.contact
       - var contactinfo = contents['contact.md']
       section.content!= contactinfo.html
