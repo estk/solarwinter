@@ -1,7 +1,7 @@
 body {
-  font: 14px 'Helvetica', serif;
+  font: 12px 'Helvetica', serif;
   letter-spacing: 1px;
-  line-height: 120%;
+  line-height: 200%;
   color: #000;
 }
 body img {
@@ -19,8 +19,8 @@ header#menubar {
   overflow-y: hidden;
   white-space: nowrap;
   display: block;
-  height: 50px;
-  line-height: 50px;
+  height: 44px;
+  line-height: 44px;
   width: 100%;
   z-index: 100;
   padding: 0 1px;
@@ -33,8 +33,8 @@ header#menubar {
 #logo {
   float: left;
   z-index: 100;
-  width: 200px;
-  height: 50px;
+  width: 176px;
+  height: 39px;
   display: inline-block;
   margin: 0 60px;
 }
@@ -49,12 +49,12 @@ nav {
   overflow-y: hidden;
   white-space: nowrap;
   display: inline-block;
-  height: 50px;
+  height: 44px;
   z-index: 100;
 }
 nav a {
   vertical-align: middle;
-  font-size: 12px;
+  font-size: 10px;
   color: #666;
   margin: 0 5px;
   padding-right: 15px;
@@ -70,7 +70,7 @@ nav a:last-child {
 #social {
   height: 21px;
   line-height: 21px;
-  margin: 10px 1.2em;
+  margin: 5px 1.2em;
   display: inline-block;
   float: right;
 }
@@ -86,14 +86,14 @@ nav a:last-child {
 }
 h2,
 h3 {
-  font: 16pt 'Helvetica', sans-serif;
-  color: #001436;
+  font: 11pt 'Helvetica', sans-serif;
+  color: #fc8f46;
   height: 30px;
   line-height: 30px;
   border-bottom: solid 1px;
-  border-color: #fc8f46;
+  border-color: #000;
   vertical-align: middle;
-  margin: 20px 0 1em 0;
+  margin: 20px 0 5px 0;
 }
 p {
   width: 67%;
@@ -117,7 +117,8 @@ p {
 }
 .container {
   width: 80%;
-  margin: 0 auto 100px;
+  max-width: 850px;
+  margin: 0 auto 50px;
 }
 article {
   padding: 1em 0;
@@ -130,13 +131,12 @@ article {
   height: 100px;
   overflow: hidden;
   margin: 10px 0;
-  max-width: 68%;
 }
 .photoset a {
   text-decoration: none;
 }
 .photoset a img {
-  height: 100px;
+  height: 110px;
   margin: 0 1em;
 }
 .photoset a img:first-child {
@@ -158,30 +158,25 @@ article {
   width: 148;
 }
 div.title {
-  font: 16pt 'Helvetica', sans-serif;
-  height: 50px;
-  margin-top: 0;
-  margin-bottom: 2em;
+  font: 12pt 'Helvetica', sans-serif;
+  height: 44px;
+  margin: 0;
   vertical-align: middle;
   display: block;
   width: 100%;
   clear: both;
   position: relative;
-}
-div.title hr {
-  margin: 0;
-  border: 0;
-  background-color: #999;
-  height: 1px;
+  background: #000;
 }
 div.title span {
   margin: 10%;
-  color: #fc8f46;
-  line-height: 50px;
+  color: #fff;
+  line-height: 44px;
   vertical-align: middle;
 }
 #slides {
   display: none;
+  padding-bottom: 2em;
 }
 #slides a img {
   max-width: 100%;
@@ -238,9 +233,6 @@ div.title span {
 }
 #duo #duoimg {
   margin-bottom: 2em;
-}
-#contact .container {
-  height: 950px;
 }
 #contact .container div {
   text-align: center;
