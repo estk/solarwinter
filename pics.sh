@@ -1,7 +1,7 @@
 #!/bin/bash
 for dir in ./contents/articles/*
 do
-        (cd $dir && mogrify -resize 100x100 -format jpg -quality 75 -path thumbs *.jpg)
+        (cd $dir && mkdir ./thumbs && mogrify -resize 100x100 -format jpg -quality 75 -path thumbs *.jpg)
 done
 
 echo `pwd`
