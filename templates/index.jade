@@ -15,12 +15,12 @@ block content
     div.title
       span  SUNSEEKER DUO
     .imagecontainer
-      img(src="/images/sectionimages/sunseekerduo.jpg")
+      img(src="/images/sectionimages/duoaeronight.jpg")
 
 
     div.container
       - var duointro = contents.duo['index.md']
-      article!= duointro.html
+      article.intro!= duointro.html
 
       - var duoarticles = _.chain(contents.articles._.directories).map(function(item) {
       -   return item.index
@@ -43,10 +43,12 @@ block content
     div.title
       span FLIGHT LOG
     .imagecontainer
-      img(src="/images/sectionimages/logbook2.jpg")
+      img(src="/images/sectionimages/mountains.jpg")
 
     div.container
-      include author
+      - var logintro = contents.log['index.md']
+      article.intro!= logintro.html
+    
       - var logarticles = _.chain(contents.articles._.directories).map(function(item) {
       -   return item.index
       - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
@@ -68,7 +70,7 @@ block content
     div.title
       span PARTNERS
     .imagecontainer
-      img(src="/images/sectionimages/partners.jpg")
+      img(src="/images/sectionimages/topgun.jpg")
 
 
     div.container
@@ -97,7 +99,7 @@ block content
             td.name= article.title
 
       h2 Materials and Systems Support
-      p Solar Flight demands the best form every material, every component, and every system that it uses in its aircraft. The companies that support Solar Flight are the best in their fields.
+      p Solar Flight demands the best from every material, every component, and every system that it uses in its aircraft. The companies that support Solar Flight are the best in their fields.
       table.partners
         each article in supportarticles
           tr.partner
@@ -109,7 +111,7 @@ block content
     div.title
       span HERITAGE
     .imagecontainer
-      img(src="/images/sectionimages/heritage.jpg")
+      img(src="/images/sectionimages/kenjibamba.jpg")
 
 
     div.container
@@ -130,7 +132,7 @@ block content
     div.title
       span TEAM
     .imagecontainer
-      img(src="/images/sectionimages/team.jpg")
+      img(src="/images/sectionimages/noshoe.jpg")
 
       
     div.container.team
@@ -152,7 +154,7 @@ block content
     div.title
       span CONTACT
     .imagecontainer
-      img(src="/images/sectionimages/contact.jpg")
+      img(src="/images/sectionimages/beachtakeoff.jpg")
 
     div.container.contact
       - var contactinfo = contents['contact.md']

@@ -6,13 +6,13 @@ template: article.jade
 ---
 
 <div>
-General inquiries: info@solar-flight.com
+<strong>General inquiries:</strong> info@solar-flight.com
 </div>
 <div>
-Press and media requests: press@solar-flight.com
+<strong>Press and media requests:</strong> press@solar-flight.com
 </div>
 <div>
-tel. 00 386 40 567 248
+tel. +386 40 567 248
 </div>
 <div>
 Solar Flight Inc.<br />

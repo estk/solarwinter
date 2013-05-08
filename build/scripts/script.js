@@ -11,7 +11,7 @@ $(function() {
       effect: "fade",
       active: false,
       auto: true,
-      interval: 30000,
+      interval: 50000,
       swap: true
     },
     pagination: {
@@ -27,7 +27,7 @@ $(function() {
     },
     effect: {
       fade: {
-        speed: 800
+        speed: 2200
       }
     }
   });

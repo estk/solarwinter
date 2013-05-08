@@ -55,7 +55,7 @@ header#menubar
   line-height 44px
   width 100%
   z-index 100
-  padding 0 1px
+  padding 0 
 
   background: rgba(255,255,255,1)  
   border-bottom 1px solid #ddd;
@@ -67,7 +67,7 @@ header#menubar
   width 176px
   height 39px
   display inline-block
-  margin 0 60px
+  margin 0 30px
   img
     vertical-align middle
 
@@ -100,19 +100,19 @@ nav a:last-child {
 
 
 #social
-  height 21px
-  line-height 21px
-  margin 5px 1.2em
+  height 32px
+  line-height 32px
+  margin 1.2em
   display inline-block
   float right
+  z-index 101
   a
     display inline-block
     vertical-align middle
   img
     vertical-align middle
-    height 21px
-    width 21px
-    margin 5px
+    height 32px
+    width 32px
 
 h2, h3
     font 10pt 'Helvetica', sans-serif 
@@ -122,8 +122,11 @@ h2, h3
     border-bottom solid 1px
     border-color black
     vertical-align middle
-    margin 10px 0 5px 0
+    margin 30px 0 5px 0
 
+.intro p:first-child
+  &:first-letter { font-size: 3em; }
+  
 p
   width 67%
   //margin 0 auto 0 0
@@ -131,6 +134,7 @@ p
 #content
   display block
   max-width 1440px
+  min-width 960px
   margin 0 auto
 
 
@@ -147,9 +151,9 @@ p
     height auto
 
 .container
-  width 80%
-  max-width 850px
-  margin 0 auto 50px
+  width 960px
+  margin 0 auto 50px	
+  padding 0 30px 0 30px
 
 article
   padding 1em 0
@@ -170,6 +174,7 @@ article
 
 .photoset a img
   height 110px
+  width auto
   margin 0 1em
   &:first-child
     margin-left 0
@@ -193,7 +198,7 @@ article
 div.title
   font 12pt 'Helvetica', sans-serif  
   height 44px
-  margin 0
+  margin 300px 0 0 0
   vertical-align middle
   display block
   width 100%

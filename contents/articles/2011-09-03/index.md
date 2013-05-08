@@ -15,32 +15,32 @@ Irena and I first stopped at Mollis, and enjoyed the hospitality of the glider c
 
 <div class="photoset">
 
-<a href="/articles/2011-09-03/lowpass1.jpg" rel="gal-2011-09-03" title="Roman Susnik brings exactly that to our attention">
-  <img src="/articles/2011-09-03/lowpass1.jpg" alt= "Low pass" \>
+<a href="/articles/2011-09-03/lowpass1.jpg" rel="gal-2011-09-03" title="Low pass">
+  <img src="/articles/2011-09-03/thumbs/lowpass1.jpg" alt= "Low pass" \>
 </a>
 
 <a href="/articles/2011-09-03/lowpass2.jpg" rel="gal-2011-09-03" title="Low pass 2">
-  <img src="/articles/2011-09-03/lowpass2.jpg" alt= "Low pass 2" \>
+  <img src="/articles/2011-09-03/thumbs/lowpass2.jpg" alt= "Low pass 2" \>
 </a>
 
 <a href="/articles/2011-09-03/lowpass3.jpg" rel="gal-2011-09-03" title="Low pass 2">
-  <img src="/articles/2011-09-03/lowpass3.jpg" alt= "Low pass 2" \>
+  <img src="/articles/2011-09-03/thumbs/lowpass3.jpg" alt= "Low pass 3" \>
 </a>
 
 <a href="/articles/2011-09-03/approach.jpg" rel="gal-2011-09-03" title="Approach to Landing">
-  <img src="/articles/2011-09-03/approach.jpg" alt= "Approach to Landing" \>
+  <img src="/articles/2011-09-03/thumbs/approach.jpg" alt= "Approach to Landing" \>
 </a>
 
 <a href="/articles/2011-09-03/landing.jpg" rel="gal-2011-09-03" title="Landing">
-  <img src="/articles/2011-09-03/landing.jpg" alt= "Landing" \>
+  <img src="/articles/2011-09-03/thumbs/landing.jpg" alt= "Landing" \>
 </a>
 
 <a href="/articles/2011-09-03/interview.jpg" rel="gal-2011-09-03" title="Interview with Swiss TV">
-  <img src="/articles/2011-09-03/interview" alt= "Interview with Swiss TV" \>
+  <img src="/articles/2011-09-03/thumbs/interview" alt= "Interview with Swiss TV" \>
 </a>
 
 <a href="/articles/2011-09-03/friends.jpg" rel="gal-2011-09-03" title="Friends and relatives">
-  <img src="/articles/2011-09-03/friends.jpg" alt= "Friends and relatives" \>
+  <img src="/articles/2011-09-03/thumbs/friends.jpg" alt= "Friends and relatives" \>
 </a>
 
 
