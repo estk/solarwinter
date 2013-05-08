@@ -19,11 +19,11 @@ Roman Susnik brings to our attention the housing for the new motor he is develop
 <div class="photoset">
 
 <a href="/articles/2010-3-5/romanwithmotor.jpg" rel="gal-2010-3-5" title="Roman Susnik brings exactly that to our attention">
-  <img src="/articles/2010-3-5/romanwithmotor.jpg" alt= "Roman Susnik brings exactly that to our attention" \>
+  <img src="/articles/2010-3-5/thumbs/romanwithmotor.jpg" alt= "Roman Susnik brings exactly that to our attention" \>
 </a>
 
 <a href="/articles/2010-3-5/cockpit.jpg" rel="gal-2010-3-5" title="Sunseeker Duo cockpit">
-  <img src="/articles/2010-3-5/cockpit.jpg" alt= "Sunseeker Duo cockpit" \>
+  <img src="/articles/2010-3-5/thumbs/cockpit.jpg" alt= "Sunseeker Duo cockpit" \>
 </a>
 
 

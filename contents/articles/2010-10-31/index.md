@@ -15,12 +15,12 @@ These quality material are crucial for the production of the new SUNSEEKER DUO w
 <div class="photoset">
 
 <a href="/articles/2010-10-31/outerskin.jpg" rel="gal-2010-10-31" title="Outer wing skin">
-  <img src="/articles/2010-10-31/outerskin.jpg" alt= "Outer wing skin" \>
+  <img src="/articles/2010-10-31/thumbs/outerskin.jpg" alt= "Outer wing skin" \>
 </a>
 
 
 <a href="/articles/2010-10-31/wingtestsection.jpg" rel="gal-2010-10-31" title="Wing test section">
-  <img src="/articles/2010-10-31/wingtestsection.jpg" alt= "Wing test section" \>
+  <img src="/articles/2010-10-31/thumbs/wingtestsection.jpg" alt= "Wing test section" \>
 </a>
 
 
