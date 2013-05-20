@@ -36,7 +36,7 @@ Irena and I first stopped at Mollis, and enjoyed the hospitality of the glider c
 </a>
 
 <a href="/articles/2011-09-03/interview.jpg" rel="gal-2011-09-03" title="Interview with Swiss TV">
-  <img src="/articles/2011-09-03/thumbs/interview" alt= "Interview with Swiss TV" \>
+  <img src="/articles/2011-09-03/thumbs/interview.jpg" alt= "Interview with Swiss TV" \>
 </a>
 
 <a href="/articles/2011-09-03/friends.jpg" rel="gal-2011-09-03" title="Friends and relatives">

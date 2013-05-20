@@ -1,7 +1,7 @@
 ---
 
 title: Floyd Fronius
-rank: 7
+rank: 8
 published: true
 
 ---

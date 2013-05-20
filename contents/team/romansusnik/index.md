@@ -1,7 +1,7 @@
 ---
 
 title: Roman Susnik
-rank: 10
+rank: 18
 published: true
 
 ---

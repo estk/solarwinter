@@ -1,7 +1,7 @@
 ---
 
 title: Frederik Ottesen
-rank: 8
+rank: 14
 published: true
 
 ---
