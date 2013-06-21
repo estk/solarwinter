@@ -5,11 +5,12 @@
     "index_articles": 3
   },
   "require": [
-    "/usr/local/share/npm/lib/node_modules/hogan.js/lib/hogan.js"
+    "/usr/local/share/npm/lib/node_modules/hogan.js/lib/hogan.js",
+    "/usr/local/share/npm/lib/node_modules/underscore/underscore.js"
   ],
   "plugins": [
-    "/usr/local/share/npm/lib/node_modules/wintersmith-stylus",
-    "/usr/local/share/npm/lib/node_modules/wintersmith-coffee",
-    "/usr/local/share/npm/lib/node_modules/wintersmith-hogan"
+    "./node_modules/wintersmith-stylus",
+    "./node_modules/wintersmith-coffee",
+    "./node_modules/wintersmith-hogan"
   ]
 }
