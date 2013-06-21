@@ -3,7 +3,7 @@
 title: 2010.10.31
 date: 2010-10-31
 published: true
-tags: home, log
+tags: home, duo
 template: article.jade
 
 ---
