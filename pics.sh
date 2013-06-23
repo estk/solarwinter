@@ -1,7 +1,9 @@
 #!/bin/bash
+shopt -s nocaseglob
+
 for dir in ./contents/articles/*
 do
-        (cd $dir && mkdir -p ./thumbs && mogrify -resize 164x110 -format jpg -quality 75 -path thumbs *.jpg)
+  (cd $dir && mkdir -p ./thumbs && mogrify -resize 164x110 -format jpg -quality 75 -path thumbs *.jpg)
 done
 
 echo `pwd`

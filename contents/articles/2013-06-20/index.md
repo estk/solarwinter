@@ -20,7 +20,7 @@ At daybreak at our test facility in Voghera, Sunseeker Duo was pulled out from i
 </a>
 
 <a href="/articles/2013-06-20/3.jpg" rel="2013-06-20" title="Ready to roll">
-  <img src="/articles/2013-06-10/thumbs/3.jpg" alt= "Ready to roll" \>
+  <img src="/articles/2013-06-20/thumbs/3.jpg" alt= "Ready to roll" \>
 </a>
 
 <a href="/articles/2013-06-20/4.jpg" rel="gal-2013-06-20" title="Liftoff">
@@ -42,7 +42,7 @@ At daybreak at our test facility in Voghera, Sunseeker Duo was pulled out from i
 
 A total of seven flights were made. After the first few flights, ballast bags were added to mimic the weight that will be added when the battery packs are incorporated. Eric reported that the handling improved considerably as the weight increased. The flights confirmed that the airframe, control systems, and landing gear are rigged correctly and the airplane handles as predicted both in the air and on the ground.
 <a href="/articles/2013-06-20/8.jpg" rel="2013-06-20" title="Ready for more">
-  <img src="/articles/2013-06-10/thumbs/8.jpg" alt= "Ready for more" \>
+  <img src="/articles/2013-06-20/thumbs/8.jpg" alt= "Ready for more" \>
 </a>
 
 
