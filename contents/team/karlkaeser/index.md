@@ -2,19 +2,14 @@
 
 title: Karl Kaeser
 rank: 10
-published: false
+published: true
 
 ---
 
-Apprenticeship as light aircraft technician at Glasfaser-Service Streifeneder GmbH, Grabenstetten
-Lightweight aircraft mechanic at WINPAL & Co Ltd., Shimodate-Shi (Japan)
-Studies of aerospace technology at the University of Stuttgart
-Major fields of study: Aircraft design, lightweight construction und fluid dynamics
-Internship in the field of type support and certification at Stemme F&D, Strausberg
-Test engineer at Solar Impulse S.A., Zurich
-Design engineer at Steinbeis Flugzeug- und Leichtbau GmbH, Stuttgart
-Freelance engineer, employed among others at Sika Deutschland GmbH, Ruppert Composite GmbH (Switzerland) und Yuneec International Ltd. (Shanghai)
-Participation at the Composites Design Workshop 5 2010 of the Stanford University with Prof. Tsai
+Mechanic, engineer, German; Karl Kaeser specialized in aircraft design, lightweight structures, and fluid dynamics at the University of Stuttgart. His vast experience encompasses some of the most innovative aircraft companies in the world, including Stemme AG, Rupert Composites, Yuneec and Solar Impulse. Karl led the design effort for the fuselage center section of Sunseeker Duo. He is also responsible for the development of a safety feature that could benefit all electric aircraft. His mechanism provides a soft-start for the motor and stops the propellor immediately if it encounters any obstacles, protecting bystanders. The Sunseeker Duo will be the first airplane to implement this feature.
+
+
+
 
 <div>
 ![Karl Kaeser](karl.jpg)
