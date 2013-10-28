@@ -176,14 +176,13 @@ div.title {
   background: #222;
 }
 div.title span {
-  margin: 10%;
+  margin: 0 10%;
   color: #fff;
   line-height: 44px;
   vertical-align: middle;
 }
 #slides {
   display: none;
-  padding-bottom: 2em;
 }
 #slides a img {
   max-width: 100%;
