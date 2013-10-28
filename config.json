@@ -8,6 +8,6 @@
     "_": "underscore"
   },
   "plugins": [
-    "wintersmith-stylus"
+    "wintersmith-jade"
   ]
 }

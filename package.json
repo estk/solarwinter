@@ -4,6 +4,7 @@
   "dependencies": {
     "wintersmith": "1.2.x",
     "wintersmith-stylus": "~0.1.2",
-    "connect": "2.7.x"
+    "connect": "2.7.x",
+    "wintersmith-jade": "~0.1.0"
   }
 }
