@@ -4,13 +4,10 @@
     "name": "Solar Flight",
     "index_articles": 3
   },
-  "require": [
-    "/usr/local/share/npm/lib/node_modules/hogan.js/lib/hogan.js",
-    "/usr/local/share/npm/lib/node_modules/underscore/underscore.js"
-  ],
+  "require": {
+    "_": "underscore"
+  },
   "plugins": [
-    "./node_modules/wintersmith-stylus",
-    "./node_modules/wintersmith-coffee",
-    "./node_modules/wintersmith-hogan"
+    "wintersmith-stylus"
   ]
 }
