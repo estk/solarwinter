@@ -3,7 +3,7 @@
 title: 2013.06.20
 date: 2013-06-20
 published: true
-tags: home, log
+tags: home, log, duo
 template: article.jade
 
 ---

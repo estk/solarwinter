@@ -11,8 +11,8 @@ template: index.jade
   <img alt="Aerobatics" src="/images/aerobaticslide.jpg" \> 
 </a>
 
-<a href="#heritage">
-  <img alt="First Across America" src="/images/acrossamericaslide.jpg" \> 
+<a href="#2013.10.22">
+  <img alt="Props" src="/images/propslide.jpg" \> 
 </a>
 
 <a href="http://www.solar-flight.com/europetour/media.html#14april">

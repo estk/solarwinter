@@ -19,11 +19,11 @@ First solar airplane to cross the United States, first to cross the Alps, now Su
   <img src="/articles/2013-07-05/thumbs/2.jpg" alt= "Inverted" \>
 </a>
 
-<a href="/articles/2013-07-18/3.jpg" rel="2013-07-18" title="Nose down">
+<a href="/articles/2013-07-18/3.jpg" rel="gal-2013-07-18" title="Nose down">
   <img src="/articles/2013-07-18/thumbs/3.jpg" alt= "Nose down" \>
 </a>
 
-<a href="/articles/2013-07-18/4.jpg" rel="2013-07-18" title="Down line">
+<a href="/articles/2013-07-18/4.jpg" rel="gal-2013-07-18" title="Down line">
   <img src="/articles/2013-07-18/thumbs/4.jpg" alt= "Down line" \>
 </a>
 

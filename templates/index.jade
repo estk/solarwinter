@@ -3,8 +3,10 @@ extends layout
 block content
   div!= page.html 
   
-      
-    
+  div#news
+    div.container
+      - var latestnews = contents.news['index.md']
+      article!= latestnews.html
 
   div#duo
     div.title
